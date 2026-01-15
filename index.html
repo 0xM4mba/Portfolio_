@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <!-- THEME TOGGLE - stays visible always -->
     <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
         <i class="fas fa-moon"></i>
     </button>
 
+    <!-- MOBILE TOGGLE - stays visible always -->
+    <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- SIDEBAR - slides off-screen on mobile -->
     <aside class="sidebar" id="sidebar">
         <div class="sidebar-header">
            <div class="profile-img">
@@ -51,14 +58,10 @@
         <i class="fa-solid fa-envelope"></i>
     </a>
 </div>
-
-
-        <button class="mobile-toggle" id="mobile-toggle">
-            <i class="fas fa-bars"></i>
-        </button>
     </aside>
 
     <main class="main-content">
+        <!-- ALL YOUR EXISTING CONTENT SECTIONS REMAIN THE SAME -->
         <section id="about" class="content-section active">
             <div class="section-header">
                 <h1 class="glitch" data-text="About Me">About Me</h1>
