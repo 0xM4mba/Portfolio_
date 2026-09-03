@@ -175,3 +175,5 @@ Free to use and modify for personal portfolio projects.
 ---
 
 **Note**: Remember to update all placeholder content, links, and personal information before deploying your portfolio!
+url:https://vishnu-p.netlify.app
+
